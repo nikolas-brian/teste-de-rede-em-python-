@@ -8,6 +8,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
+print('super alteração')
+
 chrome_options = Options()
 chrome_options.add_argument('--ignore-certificate-errors') 
 
